@@ -1,0 +1,7 @@
+{
+  "conditions": "isNight=1 AND origEmptied=1 AND type in [TRANSFER, CASH_OUT]",
+  "n_matching_rows": 9780,
+  "manual_P_fraud": 0.2761,
+  "gnb_mean_predicted_prob": 0.9991,
+  "explanation": "Manual P(Fraud | conditions) = count(fraud & conditions) / count(conditions). GaussianNB models P(X|class) as Gaussian and applies Bayes theorem to estimate P(class|X). Both numbers should be close if the Gaussian assumption holds."
+}

@@ -1,0 +1,49 @@
+======================================================================
+DATA SUMMARY
+======================================================================
+Shape          : (6362620, 21)
+Fraud count    : 8,213
+Fraud pct      : 0.1291%
+Legit count    : 6,354,407
+Missing values : 0
+
+--- amount describe ---
+count    6.362620e+06
+mean     1.798619e+05
+std      6.038582e+05
+min      0.000000e+00
+25%      1.338957e+04
+50%      7.487194e+04
+75%      2.087215e+05
+max      9.244552e+07
+Name: amount, dtype: float64
+
+--- Class balance ---
+isFraud
+0    6354407
+1       8213
+Name: count, dtype: int64
+
+--- Column dtypes ---
+step                      int64
+amount                  float64
+oldbalanceOrg           float64
+newbalanceOrig          float64
+oldbalanceDest          float64
+newbalanceDest          float64
+isFraud                   int64
+hour                      int64
+day                       int64
+isNight                   int64
+balanceDiffOrig         float64
+balanceDiffDest         float64
+origEmptied               int64
+errorOrig               float64
+errorDest               float64
+amountToBalanceRatio    float64
+type_CASH_IN              int64
+type_CASH_OUT             int64
+type_DEBIT                int64
+type_PAYMENT              int64
+type_TRANSFER             int64
+dtype: object

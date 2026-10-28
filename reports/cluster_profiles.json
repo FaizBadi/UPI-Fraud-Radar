@@ -1,0 +1,20 @@
+{
+  "kmeans": {
+    "0": {
+      "cluster": 0,
+      "n": 27254,
+      "fraud_rate": 0.2662,
+      "mean_amount": 314862.11,
+      "night_share": 0.0983,
+      "risk_label": "High Risk"
+    },
+    "1": {
+      "cluster": 1,
+      "n": 959,
+      "fraud_rate": 1.0,
+      "mean_amount": 7313015.25,
+      "night_share": 0.3222,
+      "risk_label": "High Risk"
+    }
+  }
+}
